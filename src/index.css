@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-secondary dark:text-white bg-white dark:bg-secondary transition-colors duration-200;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white py-2 px-6 rounded-full font-medium hover:bg-primary-dark transition-colors duration-300 inline-flex items-center justify-center;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary py-2 px-6 rounded-full font-medium hover:bg-primary hover:text-white transition-colors duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-neutral-light bg-white focus:outline-none focus:ring-2 focus:ring-primary dark:bg-secondary-light dark:border-secondary-light dark:text-white;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .wave-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='pattern' width='100' height='20' patternUnits='userSpaceOnUse'%3E%3Cpath d='M0 10 Q 25 0, 50 10 T 100 10' stroke='%2386C232' fill='none' stroke-width='1.5' opacity='0.3'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23pattern)'/%3E%3C/svg%3E");
+  }
+
+  .circular-image {
+    @apply rounded-full overflow-hidden border-4 border-primary;
+  }
+}
