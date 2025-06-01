@@ -75,7 +75,7 @@ const Team: React.FC = () => {
             role="Co-Founder Teknologi"
             quote="Dengan teknologi sederhana, kita bisa bantu orang-orang mengelola limbah makanan mereka secara efisien."
             focus="Form, platform edukasi digital"
-            image="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            image="kiara.jpg"
           />
         </div>
       </div>
