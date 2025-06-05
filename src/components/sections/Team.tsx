@@ -61,14 +61,14 @@ const Team: React.FC = () => {
             role="Founder & Inisiator"
             quote="Saya ingin membuat solusi yang tidak hanya berdampak pada lingkungan, tapi juga membuka peluang usaha bagi Gen Z seperti kita."
             focus="Edukasi maggot, desain starter kit, strategi sosial"
-            image="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            image="kharisma.jpg"
           />
           <TeamMember
             name="Nabiel Harits"
             role="Co-Founder Komunitas & Riset"
             quote="Kami percaya bahwa perubahan besar bisa dimulai dari satu rumah, satu ember, dan satu koloni maggot."
             focus="Riset potensi limbah organik, pengembangan komunitas & edukasi"
-            image="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            image="nabiel.jpg"
           />
           <TeamMember
             name="Putri Kiara"

@@ -81,8 +81,8 @@ const FAQ: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-primary"></div>
           <p className="text-center max-w-2xl mt-6 text-secondary-light dark:text-neutral-light">
-            Masih bingung? Temukan jawaban untuk pertanyaan yang sering diajukan tentang
-            budidaya maggot dan HelloMaggie!
+            Masih bingung? Temukan jawaban untuk pertanyaan yang sering diajukan
+            tentang budidaya maggot dan HelloMaggie!
           </p>
         </div>
 

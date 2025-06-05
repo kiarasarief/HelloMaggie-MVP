@@ -36,6 +36,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="hidden md:flex items-center space-x-6">
+          {" "}
           <nav className="flex space-x-6">
             <ScrollLink
               to="about"
@@ -46,14 +47,6 @@ const Navbar: React.FC = () => {
               Tentang Kami
             </ScrollLink>
             <ScrollLink
-              to="auth"
-              smooth={true}
-              duration={500}
-              className="text-secondary hover:text-primary dark:text-white dark:hover:text-primary cursor-pointer"
-            >
-              Login / Register
-            </ScrollLink>
-            <ScrollLink
               to="team"
               smooth={true}
               duration={500}
@@ -62,7 +55,6 @@ const Navbar: React.FC = () => {
               Tim Kami
             </ScrollLink>
           </nav>
-
           <button
             onClick={toggleTheme}
             className="p-2 rounded-full bg-neutral-light dark:bg-secondary-light text-secondary dark:text-white transition-colors duration-300"
@@ -99,6 +91,7 @@ const Navbar: React.FC = () => {
           isOpen ? "max-h-64" : "max-h-0"
         }`}
       >
+        {" "}
         <nav className="flex flex-col p-4">
           <ScrollLink
             to="about"
@@ -108,15 +101,6 @@ const Navbar: React.FC = () => {
             onClick={toggleMenu}
           >
             Tentang Kami
-          </ScrollLink>
-          <ScrollLink
-            to="auth"
-            smooth={true}
-            duration={500}
-            className="py-2 text-secondary hover:text-primary dark:text-white dark:hover:text-primary"
-            onClick={toggleMenu}
-          >
-            Login / Register
           </ScrollLink>
           <ScrollLink
             to="team"

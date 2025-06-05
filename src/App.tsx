@@ -1,7 +1,6 @@
 import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
-import AuthForm from "./components/sections/AuthForm";
 import GoogleForm from "./components/sections/GoogleForm";
 import FAQ from "./components/sections/FAQ";
 import Team from "./components/sections/Team";
@@ -14,7 +13,6 @@ function App() {
       <main>
         <Hero />
         <About />
-        <AuthForm />
         <GoogleForm />
         <FAQ />
         <Team />
